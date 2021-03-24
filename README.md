@@ -39,8 +39,6 @@ Installation
 
 You must install :
 
-  - Regex : write this line in the cmd -> <code>pip install regex</code>
-  - PyInquirer : write this line in the cmd -> <code>pip install PyInquirer</code>
   - Colorama : write this line in the cmd -> <code>pip install colorama</code>
 
 <br>
@@ -49,9 +47,9 @@ You must install :
 
 Choose a language : English or French.
 
-Download and unzip the "python_calculator_exe.zip".
+Download and unzip the "python_pendu.exe" or "hangman's_game_python.exe"
 
-Launch the "python_calculator.exe".
+Launch the file.
 
 <br>
 
@@ -62,13 +60,15 @@ Launch the "python_calculator.exe".
 
 Choose a language : English or French.
 
-Write this line in the command prompt :
+Write one of this line in the command prompt :
 
-    > py \pathto\python_calculator.py
+    > py \pathto\python_pendu.py
+
+    > py \pathto\hangmans_game_python.py
 
 OR
 
-Just launch the "python_calculator.py".
+Just launch the file.
 
 <br>
 
