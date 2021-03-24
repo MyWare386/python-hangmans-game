@@ -8,15 +8,15 @@ A hangman's game made by me with Pyton
 Contents
 ----------------
 
-- <a href="https://github.com/MyWare386/python_calculator#contents">Contents</a>
-- <a href="https://github.com/MyWare386/python_calculator#news">News</a>
-- <a href="https://github.com/MyWare386/python_calculator#note">Note</a>
-- <a href="https://github.com/MyWare386/python_calculator#installation">Installation</a>
-  - <a href="https://github.com/MyWare386/python_calculator#librairies">Librairies</a>
-  - <a href="https://github.com/MyWare386/python_calculator#executable">Executable</a>
-  - <a href="https://github.com/MyWare386/python_calculator#python">Python</a>
-  - <a href="https://github.com/MyWare386/python_calculator#other">Other</a>
-- <a href="https://github.com/MyWare386/python_calculator#credits">Credits</a>
+- <a href="https://github.com/MyWare386/python-hangmans-game#contents">Contents</a>
+- <a href="https://github.com/MyWare386/python-hangmans-game#news">News</a>
+- <a href="https://github.com/MyWare386/python-hangmans-game#note">Note</a>
+- <a href="https://github.com/MyWare386/python-hangmans-game#installation">Installation</a>
+  - <a href="https://github.com/MyWare386/python-hangmans-game#librairies">Librairies</a>
+  - <a href="https://github.com/MyWare386/python-hangmans-game#executable">Executable</a>
+  - <a href="https://github.com/MyWare386/python-hangmans-game#python">Python</a>
+  - <a href="https://github.com/MyWare386/python-hangmans-game#other">Other</a>
+- <a href="https://github.com/MyWare386/python-hangmans-game#credits">Credits</a>
 
 <br>
 
@@ -47,7 +47,7 @@ You must install :
 
 Choose a language : English or French.
 
-Download and unzip the "python_pendu.exe" or "hangman's_game_python.exe"
+Download and unzip the "python_pendu.exe" or "hangmans_game_python.exe"
 
 Launch the file.
 
