@@ -7,6 +7,8 @@ import colorama
 from colorama import Fore
 from colorama import Style
 
+colorama.init()
+
 wordlist = []
 with open("mots/english.txt") as file:
     for line in file:
@@ -30,8 +32,8 @@ print("")
 print("------------------------------------------------------------------")
 
 while tentatives > 0:
-  print("\n-> Word to guess : ", affichage)
-  proposition = input(Fore.GREEN + "Submit a letter : " + Style.RESET_ALL)[0:1].lower()
+  print(Fore.GREEN + "\n-> Word to guess : "  + Style.RESET_ALL, affichage)
+  proposition = input("Submit a letter : ")[0:1].lower()
 
   if proposition in solution:
       lettres_trouvees = lettres_trouvees + proposition
@@ -68,7 +70,7 @@ while tentatives > 0:
   if "_" not in affichage:
       print("")
       print("")
-      print(Fore.YELLOW + ">>> You won! <<<" + Style.RESET_ALL)
+      print(Fore.YELLOW + "    >>> You won! <<<    " + Style.RESET_ALL)
       break
 
 print("")
