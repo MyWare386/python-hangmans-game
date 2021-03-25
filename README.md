@@ -79,7 +79,7 @@ Just launch the file.
 
 Some code editor let you execute python files directly.
 
-Or you can run the compiled pyhton file (.pyc). If you do this, don't forget to download the <code>"mots"</code> folder.
+Or you can run the compiled pyhton file (<code>.pyc</code>). If you do this, don't forget to download the <code>"mots"</code> folder.
 
 <br>
 
