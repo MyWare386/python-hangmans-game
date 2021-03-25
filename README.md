@@ -35,8 +35,6 @@ Note
 Installation
 ----------------
 
-⚠️ You will have to change the directory of the "mots" folder. 
-
 - <h3>Librairies</h3>
 
 You must install :
@@ -58,6 +56,9 @@ Launch the file.
 - <h3>Python</h3>
 
 | ⚠️ Python must be installed on your computer
+|---
+
+| ⚠️ You will have to change the directory of the "mots" folder.
 |---
 
 Choose a language : English or French.
