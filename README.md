@@ -47,7 +47,7 @@ You must install :
 
 Choose a language : English or French.
 
-Download and unzip the "pendu_python.exe" or "hangmans_game_python.exe"
+Download and unzip the <code>"pendu_python.exe"</code> or "hangmans_game_python.exe"
 
 Launch the file.
 
