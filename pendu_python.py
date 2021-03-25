@@ -8,7 +8,7 @@ from colorama import Fore
 from colorama import Style
 
 wordlist = []
-with open("francais.txt") as file:
+with open("mots/francais.txt") as file:
     for line in file:
      wordlist.append(line)
 wordlist = list(map(lambda x : x[:-1], wordlist))
@@ -24,6 +24,8 @@ for l in solution:
 
 print("")
 print(Fore.BLUE + Style.BRIGHT + ">> Bienvenue " + Fore.GREEN + "dans " + Fore.YELLOW + "le " + Fore.RED + "pendu <<" + Style.RESET_ALL)
+print("")
+print(Fore.YELLOW + "-> Proposez des lettres pour trouver le mot" + Style.RESET_ALL)
 print("")
 print("------------------------------------------------------------------")
 
