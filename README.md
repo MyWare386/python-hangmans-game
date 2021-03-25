@@ -58,7 +58,7 @@ Launch the file.
 | ⚠️ Python must be installed on your computer
 |---
 
-| ⚠️ You will have to change the directory of the "mots" folder.
+| ⚠️ You will have to change the directory of the "mots" folder
 |---
 
 Choose a language : English or French.
