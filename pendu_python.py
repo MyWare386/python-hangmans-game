@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function, unicode_literals
+
 import random
 
 import colorama
 from colorama import Fore
 from colorama import Style
+from colorama import init
+from colorama import Back
+
+colorama.init()
 
 wordlist = []
 with open("mots/francais.txt") as file:
@@ -30,8 +36,8 @@ print("")
 print("------------------------------------------------------------------")
 
 while tentatives > 0:
-  print("\n-> Mot à deviner : ", affichage)
-  proposition = input(Fore.GREEN + "Proposez une lettre : " + Style.RESET_ALL)[0:1].lower()
+  print(Fore.GREEN + "\n-> Mot à deviner : " + Style.RESET_ALL, affichage)
+  proposition = input("Proposez une lettre : ")[0:1].lower()
 
   if proposition in solution:
       lettres_trouvees = lettres_trouvees + proposition
@@ -68,7 +74,7 @@ while tentatives > 0:
   if "_" not in affichage:
       print("")
       print("")
-      print(Fore.YELLOW + ">>> Gagné! <<<" + Style.RESET_ALL)
+      print(Fore.YELLOW + "    >>> Gagné! <<<    " + Style.RESET_ALL)
       break
 
 print("")
