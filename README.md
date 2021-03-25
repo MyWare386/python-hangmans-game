@@ -35,6 +35,8 @@ Note
 Installation
 ----------------
 
+⚠️ You will have to change the directory of the "mots" folder. 
+
 - <h3>Librairies</h3>
 
 You must install :
