@@ -7,9 +7,13 @@ import colorama
 from colorama import Fore
 from colorama import Style
 
-choix = ["casserole", "cuillere", "patate", "souris", "anticonstitutionnellement", "voiture", "nintendo", "apple", "stylo", "zebre", "feuille", "table", "xylophone", "cuisine", "python", "vin", "echelle", "github", "baccalaureat", "pendu"]
+wordlist = []
+with open("francais.txt") as file:
+    for line in file:
+     wordlist.append(line)
+wordlist = list(map(lambda x : x[:-1], wordlist))
 
-solution = random.choice(choix)
+solution = random.choice(wordlist)
 
 tentatives = 7
 affichage = ""
@@ -68,7 +72,7 @@ while tentatives > 0:
 print("")
 print(Fore.BLUE + Style.BRIGHT + " Le mot était", "\"", solution, "\"" + Style.RESET_ALL)
 print("")
-print(Fore.RED + "\n    * Fin de la partie *    " + Style.RESET_ALL)
+print(Fore.YELLOW + "\n    * Fin de la partie *    " + Style.RESET_ALL)
 print("")
 
 print("")
