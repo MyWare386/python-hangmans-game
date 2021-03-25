@@ -8,7 +8,7 @@ from colorama import Fore
 from colorama import Style
 
 wordlist = []
-with open("english.txt") as file:
+with open("mots/english.txt") as file:
     for line in file:
      wordlist.append(line)
 wordlist = list(map(lambda x : x[:-1], wordlist))
@@ -24,6 +24,8 @@ for l in solution:
 
 print("")
 print(Fore.BLUE + ">> Welcome " + Fore.GREEN + "to " + Fore.YELLOW + "the " + Fore.RED + "hangman's game <<" + Style.RESET_ALL)
+print("")
+print(Fore.YELLOW + "-> Submit letter to find the word" + Style.RESET_ALL)
 print("")
 print("------------------------------------------------------------------")
 
